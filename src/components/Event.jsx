@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Col, Button, Alert } from 'react-bootstrap';
+import { Card, Col, Button, Alert, Collapse } from 'react-bootstrap';
 
 const Event = ({ event, onBook }) => {
   const [message, setMessage] = useState('');
@@ -16,9 +16,11 @@ const Event = ({ event, onBook }) => {
   const toggleLike = () => setLiked(!liked);
 
   return (
-    <Col>
+    <>
+   
+     <Col>   
       <Card>
-      <Card.Img variant="top" src={event.nbTickets === 0 ? '/src/assets/sold_out.png' : event.img || '/src/assets/placeholder.jpg'} />
+      <Card.Img variant="top" src={event.nbTickets === 0 ? '/src/assets/sold_out.png' : event.img || '/src/assets/placeholder.jpg'} style={{width : "200px"}} />
       <Card.Body>
           <Card.Title>{event.name}</Card.Title>
           <Card.Text>{event.description}</Card.Text>
@@ -29,12 +31,13 @@ const Event = ({ event, onBook }) => {
           </Button>
           <Button onClick={toggleLike} variant="secondary" className="ms-2">
             {liked ? 'Dislike' : 'Like'}
-          </Button>
+          </Button>                                                                                                                                             
           {message && <Alert variant="success" className="mt-2">{message}</Alert>}
         </Card.Body>
       </Card>
-    </Col>
-  );
-};
+      </Col>
+  
+  </>
+);}
 
 export default Event;

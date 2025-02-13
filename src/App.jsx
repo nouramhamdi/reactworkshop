@@ -11,6 +11,7 @@ import Timer from './components/Timer'
 import Counter from './components/Counter'
 import NotesManager from './components/GestionnaireNote'
 import Events from './components/Events'
+import Products from './components/Products'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,9 +48,9 @@ function App() {
       <Timer/>
       <Counter/>
       <NotesManager/> */}
-      <Events/>
+      <Products/>
     </>
   )
 }
 
-export default App
+export default App;

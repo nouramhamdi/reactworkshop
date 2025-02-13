@@ -1,29 +1,29 @@
 [
     {
-      "id": 1,
+     
       "name": "Concert Live",
       "description": "Un concert exceptionnel avec des artistes talentueux.",
-      "img": "./assets/event1.jpg",
+      "img": "/src/assets/event1.jpg",
       "price": 30,
       "nbTickets": 100,
       "nbParticipants": 50,
       "like": false
     },
     {
-      "id": 2,
+    
       "name": "Festival de Jazz",
       "description": "Profitez du meilleur du jazz en plein air.",
-      "img": "./assets/event1.jpg",
+      "img": "/src/assets/event1.jpg",
       "price": 25,
       "nbTickets": 80,
       "nbParticipants": 40,
       "like": true
     },
     {
-      "id": 3,
+     
       "name": "Salon du Livre",
       "description": "Rencontrez vos auteurs préférés et découvrez de nouveaux livres.",
-      "img": "./assets/event2.jpg",
+      "img": "/src/assets/event2.jpg",
       "price": 10,
       "nbTickets": 150,
       "nbParticipants": 90,
