@@ -7,7 +7,7 @@ const Event = ({ event, onBook }) => {
 
   const handleBook = () => {
     if (event.nbTickets > 0) {
-      onBook(event.name);
+      onBook(event.id);
       setMessage('You have booked an event!');
       setTimeout(() => setMessage(''), 2000);
     }

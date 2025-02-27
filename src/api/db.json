@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Festival international de Carthage",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "img": "src/assets/event1.jpg",
+      "price": 30,
+      "nbTickets": 10,
+      "nbParticipants": 10,
+      "like": false
+    },
+    {
+      "id": 2,
+      "name": "Festival de la médina de Tunis",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "img": "src/assets/event2.jpg",
+      "price": 15,
+      "nbTickets": 4,
+      "nbParticipants": 30,
+      "like": false
+    },
+    {
+      "id": "f4f7",
+      "title": "ounpou",
+      "date": "2025-02-26",
+      "nbTickets": "25",
+      "nbParticipants": 0
+    },
+    {
+      "id": "0458",
+      "name": "ttktkl",
+      "description": "jtjgtitj",
+      "price": "52",
+      "nbTickets": "80",
+      "nbParticipants": "50",
+      "like": false
+    }
+  ]
+}
